@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>NASA Groundstations</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+
+    <div id="mapElement"></div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9UF5N33bR8Dtln5I9aCMoaVpe6_1_PwI"></script>
+    <script src="Scripts/app.js"></script>
+    <script>
+
+        window.onload = function() {
+            let mapElement = document.getElementById('mapElement');
+            let objApp = new SpXInit();
+
+            objApp.initMap(mapElement);
+        };
+
+    </script>
+
+</body>
+</html>
