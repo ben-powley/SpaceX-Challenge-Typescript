@@ -50,7 +50,6 @@
     <TypeScriptCompile Include="Scripts\typescript\classes\SpXInit.ts" />
     <TypeScriptCompile Include="Scripts\typescript\classes\SpXMap.ts" />
     <TypeScriptCompile Include="Scripts\typescript\classes\SpXMarker.ts" />
-    <TypeScriptCompile Include="Scripts\typescript\SpXApp.ts" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
